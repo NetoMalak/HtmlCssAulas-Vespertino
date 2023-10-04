@@ -1,0 +1,47 @@
+
+<!-- Tipo de documento/versão do Html (v5 - versão 5)-->
+<!DOCTYPE html>
+<!-- Definição do ínicio do html, lang = linguagem em english -->
+<html lang="pt-br">
+<!-- Cabeça do site, apenas linkar arquivos, configurações, e tags internas -->
+<head>
+    <!-- charset UTF-8 - Configuração de caracteres ocidentais/gerais -->
+    <meta charset="UTF-8">
+    <!-- Compatibilidade com browser's Exemplo: Internet Edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Largura de tela/responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título na aba do navegador -->
+    <title>Aula 01 Introduction - Html</title>
+</head>
+
+<!-- Corppo, parte do conteúdo visial ao usuário do site -->
+<body>
+
+<h1>MEU PRIMEIRO TEXTO EM HTML!</h1><br>
+
+<p>Bom dia! Meu nome é: <b>Luiz Neto.<b></p><br>
+<p>Tenho xx anos e estou cursando Desenvolvedor de Front End no SENAI.</p><br>
+
+<h4>APRENDIZADOS:</h4><br>
+
+<p>
+<del>Internet.<del>
+</p><br>
+
+<p>
+<del>Algoritmos.<del>
+</p><br>
+
+<p>
+    <mark>HTML.<mark>
+</p><br>
+
+<p style="color: red">Css.</p><br>
+
+<p style="color: red">BootStrap.</p><br>
+
+<p style="color: red">Javascript.</p><br>
+
+</body>
+</html>
