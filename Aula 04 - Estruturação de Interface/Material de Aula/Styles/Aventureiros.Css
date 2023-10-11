@@ -1,0 +1,76 @@
+main{
+ width: 100%;
+ margin: 20px 0px;
+}
+
+h1{
+ text-align: center;
+ color: violet;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sectionitens{
+    width: 100%; 
+    background-color: grey;
+    /*configuração padrão: topo, esquerda e em coluna.*/
+    display: flex; /*Muda a maneira de mostrar no navegador.*/
+    flex-direction: row-reverse; /*Row: linha, Column: coluna (padrão do Css).*/
+    /* flex-direcion: row-reverse/colunn-reverse (inverter/espelhar o row e o column).*/
+    justify-content: space-around; /*Muda a orientação horizontal.*/
+    align-items: center; /*Muda a orientação vertical.*/
+    flex-wrap: nowrap; /*Evita a dstorção do elementos.*/
+    gap: 20px; /*Gap é margem entre elementos*/ 
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.itemimagem{
+    width: 100%;
+    height: 50%;
+    background-color: blanchedalmond;
+}
+
+.itemimagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.itemdescricao{
+    width: 100%;
+    height: 50%;
+    background-color: whitesmoke;
+}
+
+.itemdescricao h3{
+    margin: 10px 0px;
+    color: blueviolet;
+}   
+
+.itemdescricao p{
+    margin: 20px 0px;
+    color:blue
+}
+
+.itemvalor{
+    font-size: 14pt;
+    color: rgb(20, 92, 20);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
